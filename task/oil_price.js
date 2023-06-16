@@ -19,7 +19,7 @@ BoxJs网址：https://boxjs.com 或者新版：https://dompling.github.io/boxjs.
 
 const $ = new Env("查询油价");
 // 默认福建
-var region = $.getdata("地区") || "fujian";
+var region = $.getdata("地区") || "guangdong/shenzhen";
 
 const query_addr = `http://m.qiyoujiage.com/${region}.shtml`;
 
